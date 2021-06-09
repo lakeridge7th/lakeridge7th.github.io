@@ -1,1 +1,0 @@
-# lakeridge7th.github.io

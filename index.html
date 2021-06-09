@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!-- Author: Jesse Howell
+
+-->
+
+<html class="theme-default">
+
+<head>
+    <title>Member website for the Lakeridge 7th Ward</title>
+
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- data -->
+    <script src="data/announcements.js"></script>
+    <script src="data/archives.js"></script>
+    <script src="data/classes.js"></script>
+    <script src="data/hymns.js"></script>
+    <script src="data/leadership.js"></script>
+    <script src="data/links.js"></script>
+    <script src="data/otherInfo.js"></script>
+    <script src="data/sacrament.js"></script>
+    <script src="data/spotlights.js"></script>
+    
+    <!-- scripts -->
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/html.js"></script>
+    
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/themes.css">
+
+</head>
+
+<body>
+    <section id="announcements" class="layer1">
+        <h2 class="clickable">Announcements</h2>
+        <!-- <div id="announcementsContent" class="isShrunk hidden"> -->
+        <div id="announcementsContent" class="isShrunk">
+            <div id="announceGeneral" class="layer2">General</div>
+            <!-- <div id="announceLinks" class="layer2">Class Links</div> -->
+            <div id="announceCalendar" class="layer2">Calendar/Events</div>
+        </div>
+    </section>
+    <section id="sacrament" class="layer1">
+        <h2 class="clickable">Sacrament</h2>
+        <div id="sacramentContent" class="isGrown">
+            <div id="sacramentProgram"></div>
+            <!-- <div id="sacramentProgram" class="layer2"></div> -->
+            <!-- <div id="sacramentLink" class="layer2"></div> -->
+        </div>
+    </section>
+    <section id="classes" class="layer1">
+        <h2 class="clickable">Classes</h2>
+        <div id="classesContent" class="isShrunk hidden">
+            <div id="classesLinks" class="layer2">Links</div>
+            <div id="classesPrimary" class="layer2">Primary</div>
+            <div id="classesYouth" class="layer2">Youth</div>
+            <div id="classesSundaySchool" class="layer2">Sunday School</div>
+            <div id="classesReliefSociety" class="layer2">Relief Society</div>
+            <div id="classesEldersQuorum" class="layer2">Elder's Quorum</div>
+        </div>
+    </section>
+    <section id="leadership" class="layer1">
+        <h2 class="clickable">Leadership/Other Ward Info</h2>
+        <div id="leadershipContent" class="isShrunk hidden">
+            <div id="leadershipPeople" class="layer2">Leadership</div>
+            <div id="leadershipQrCodes" class="layer2">QR Codes</div>
+            <!-- <div id="leadershipSettings" class="layer2">Settings</div> -->
+        </div>
+    </section>
+    <section id="spotlights" class="layer1">
+        <h2 class="clickable">Spotlights</h2>
+        <div id="spotlightsContent" class="isShrunk hidden">
+
+        </div>
+    </section>
+    <section id="archives" class="layer1">
+        <h2 class="clickable">Archives</h2>
+        <div id="archivesContent" class="isShrunk hidden">
+            <div id="archivesSacrament" class="layer2">Sacrament</div>
+            <div id="archivesSpotlights" class="layer2">Spotlights</div>
+            <!-- <div id="archivesReliefSociety" class="layer2">Relief Society</div> --><!-- as needed per class -->
+            <div id="archivesEvents" class="layer2">Events</div>
+        </div>
+    </section>
+</body>
+
+</html>
