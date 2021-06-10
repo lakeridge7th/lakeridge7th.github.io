@@ -22,7 +22,7 @@ function addHTML() {
     // addAnnouncements
     addSacrament();
     // addClasses
-    // addLeadership
+    addLeadership();
     // addSpotlights
     // addArchives
 }

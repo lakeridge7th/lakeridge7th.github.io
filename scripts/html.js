@@ -63,3 +63,15 @@ function getSpeakersHTML() {
 
     return html;
 }
+
+function addLeadership() {
+    let html = '<table>';
+
+    for(var leader of leadership) {
+        html += '<tr><td>' + leader.calling + '</td><td>' + leader.name + '</td><td>' +
+            leader.phoneA + '<span class="hidden">INVISIBLE TEXT TO TRICK BOTS</span>' +
+            leader.phoneB + '</td></tr>';
+    }
+
+    document.getElementById('leadershipPeople').innerHTML = html;
+}

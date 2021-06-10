@@ -73,6 +73,11 @@ p {
     margin: 0px 25px;
 }
 
+td {
+    font-size: 10pt;
+    padding: 0px 10px;
+}
+
 .referenceContact {
     display: inline-block;
     margin-left: 25px;
@@ -124,6 +129,10 @@ p {
 .hymnTitle {
     text-align: center;
 }
+
+/* #leadershipPeople {
+    font-size: 10pt;
+} */
 
 .emptySpace {
     height: 20px;
