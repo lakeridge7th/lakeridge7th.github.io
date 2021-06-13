@@ -25,7 +25,7 @@ function addSacrament() {
 
     html += getSpeakersHTML();
 
-    html += getHymnHTML(currentSacrament.hymns[currentSacrament.hymns.length - 1], 'Opening Hymn');
+    html += getHymnHTML(currentSacrament.hymns[currentSacrament.hymns.length - 1], 'Closing Hymn');
     html += getProgramItemHtml(currentSacrament.benediction, 'Benediction');
 
     html += '<p class="emptySpace"></p>';
@@ -56,7 +56,10 @@ function getSpeakersHTML() {
     html = '';
 
     if(currentSacrament.type == 'normal') {
-
+        html += '<div class="programItem"><p>' + 'Speaker' + '</p><p>' + currentSacrament.speakers[0] + '</p></div>';
+        html += '<div class="programItem"><p>' + 'Speaker' + '</p><p>' + currentSacrament.speakers[1] + '</p></div>';
+        html += getHymnHTML(currentSacrament.hymns[2], 'Rest Hymn');
+        html += '<div class="programItem"><p>' + 'Speaker' + '</p><p>' + currentSacrament.speakers[2] + '</p></div>';
     } else if(currentSacrament.type == 'fast') {
         html += '<p class="center">Bearing of Testimonies</p>';
     }
