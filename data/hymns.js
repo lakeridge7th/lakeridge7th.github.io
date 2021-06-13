@@ -25,4 +25,24 @@ hymns = {
         'title': 'Go Forth with Faith',
         'url': ''
     },
+    'TBA': {
+        'title': '',
+        'url': ''
+    },
+    'Blank1': {
+        'title': 'Title',
+        'url': ''
+    },
+    'Blank2': {
+        'title': 'Title',
+        'url': ''
+    },
+    'Blank3': {
+        'title': 'Title',
+        'url': ''
+    },
+    'Blank4': {
+        'title': 'Title',
+        'url': ''
+    },
 }
