@@ -76,5 +76,26 @@ function addLeadership() {
             leader.phoneB + '</td></tr>';
     }
 
-    document.getElementById('leadershipPeople').innerHTML = html;
+    document.getElementById('leadershipPeopleContent').innerHTML = html;
+}
+
+function addButtons() {
+    document.getElementById('announcementsClick').onclick = function() {
+        toggleContent(document.getElementById('announcementsContent'));
+    };
+    document.getElementById('sacramentClick').onclick = function() {
+        toggleContent(document.getElementById('sacramentContent'));
+    };
+    document.getElementById('classesClick').onclick = function() {
+        toggleContent(document.getElementById('classesContent'));
+    };
+    document.getElementById('leadershipClick').onclick = function() {
+        toggleContent(document.getElementById('leadershipContent'));
+    };
+    document.getElementById('spotlightsClick').onclick = function() {
+        toggleContent(document.getElementById('spotlightsContent'));
+    };
+    document.getElementById('archivesClick').onclick = function() {
+        toggleContent(document.getElementById('archivesContent'));
+    };
 }

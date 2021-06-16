@@ -14,7 +14,7 @@ const PAGE_VERSION = '0.0.1';
 
 function startup() {
     addHTML();
-    // addButtons
+    addButtons();
     //  for collapsible: 
 }
 
