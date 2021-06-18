@@ -147,30 +147,13 @@ img {
     margin: 0px auto;
 }
 
-.isShrunk {
-    flex: 0;
+.toggleMe {
+    -webkit-transition: height .5s ease;
+    -o-transition: height .5s ease;
+    transition: height .5s ease;
+    overflow: hidden;
 }
 
-.isGrown {
-    flex: 1;
-}
-
-.isShrinking {
-    animation-name: shrinkAnimation;
-    animation-duration: 0.5s;
-}
-
-.isGrowing {
-    animation-name: growAnimation;
-    animation-duration: 0.5s;
-}
-
-@keyframes growAnimation {
-    0%   {flex: 0;}
-    100% {flex: 1;}
-}
-
-@keyframes shrinkAnimation {
-    0%   {flex: 1;}
-    100% {flex: 0;}
+.toggleMe:not(.active) {
+    display: none;
 }

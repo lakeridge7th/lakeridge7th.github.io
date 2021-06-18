@@ -16,6 +16,7 @@ function startup() {
     addHTML();
     addButtons();
     //  for collapsible: 
+    document.getElementById('sacramentClick').click();
 }
 
 function addHTML() {
