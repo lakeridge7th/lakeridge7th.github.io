@@ -81,21 +81,21 @@ function addLeadership() {
 
 function addButtons() {
     document.getElementById('announcementsClick').onclick = function() {
-        toggleContent(document.getElementById('announcementsContent'));
+        toggleMainContent(document.getElementById('announcementsContent'));
     };
     document.getElementById('sacramentClick').onclick = function() {
-        toggleContent(document.getElementById('sacramentContent'));
+        toggleMainContent(document.getElementById('sacramentContent'));
     };
     document.getElementById('classesClick').onclick = function() {
-        toggleContent(document.getElementById('classesContent'));
+        toggleMainContent(document.getElementById('classesContent'));
     };
     document.getElementById('leadershipClick').onclick = function() {
-        toggleContent(document.getElementById('leadershipContent'));
+        toggleMainContent(document.getElementById('leadershipContent'));
     };
     document.getElementById('spotlightsClick').onclick = function() {
-        toggleContent(document.getElementById('spotlightsContent'));
+        toggleMainContent(document.getElementById('spotlightsContent'));
     };
     document.getElementById('archivesClick').onclick = function() {
-        toggleContent(document.getElementById('archivesContent'));
+        toggleMainContent(document.getElementById('archivesContent'));
     };
 }

@@ -147,13 +147,13 @@ img {
     margin: 0px auto;
 }
 
-.toggleMe {
+.toggle1 {
     -webkit-transition: height .5s ease;
     -o-transition: height .5s ease;
     transition: height .5s ease;
     overflow: hidden;
 }
 
-.toggleMe:not(.active) {
+.toggle1:not(.active) {
     display: none;
 }
