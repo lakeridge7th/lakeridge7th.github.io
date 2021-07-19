@@ -5,7 +5,7 @@ announcements = {
             'message': 'join the "Lakeridge 7th Ward Friends" Facebook page (see "Leadership/Other Ward Info" section).'
         },
         {
-            'header': 'For appointments or ecclesiastical endorsements with the bishop or baby blessing info',
+            'header': 'For appointments or ecclesiastical endorsements with the bishop',
             'message': 'please contact John Smith at ###-###-####.'
         },
         {
